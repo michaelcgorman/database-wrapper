@@ -7,7 +7,7 @@ Example Usage
 -------------
 
 ```php
-Class ClassroomDB extends DB {
+class ClassroomDB extends DB {
 	public function __construct() {
 		$this->dbn = 'Classrooms';
 		$this->user = 'USERNAME';
